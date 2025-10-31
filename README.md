@@ -1,30 +1,57 @@
 # DESAFIO QA BEEDOO 2025
 Repositório criado para a realização do teste relacionado a vaga de Analista de Qualidade de Software Júnior da empresa Beedoo. O objetivo é avaliar a aplicação [Beedoo QA Challenge](https://creative-sherbet-a51eac.netlify.app/), responsável por gerenciamento de cursos, e documentar suas histórias de usuário, regras de negócio, critérios de aceite, cenários e casos de teste e também reportar bugs e sugerir melhorias.
 ___
-
-## USER STORIES
+## 1. USER STORIES
 A minha ideia ao criar as user stories foi partir de uma estória mais abrangente e depois destrinchar conforme as principais funcionalidades que o sistema apresenta. A persona escolhida é um usuário com privilégios de administrador, uma vez que o sistema se trata de um gerenciador de cursos e portanto um usuário comum não poderia ter acesso as funcionalidades. 
 
-_EU_, enquanto usuário administrador do sistema  
-_GOSTARIA_, de uma plataforma de cursos  
-_PORQUE_, assim posso gerencia-los
+![alt text](https://i.imgur.com/1pyJdhd.png "Beedoo QA Tests")
+
+    _EU_, enquanto usuário administrador do sistema  
+    _GOSTARIA_, de uma plataforma de cursos  
+    _PORQUE_, assim posso gerencia-los  
+
+Regras de negócios
+    
+    RN1: Possuir no cabeçalho do sistema um H1 com o texto: Beedoo QA Chalenge
+    RN2: Possuir no cabeçalho do sistema as opções: LISTAR CURSOS e CADASTRAR CURSO
+    RN3: Possuir no corpo do sistema um H4 com o texto: Lista de cursos 
 
 ---
 Funcionalidade: __CADASTRAR CURSO__
+![alt text](https://i.imgur.com/SX5wurU.png "Cadastro de curso")
 
     EU, enquanto usuário administrador do sistema  
     GOSTARIA, de um formulário de cadastro  
     PORQUE, assim posso inserir os cursos disponíveis no sistema 
+    
+Regras de negócio
+
+    RN1: Possuir os campos do tipo input alfanumérico com os placeholders: Nome do curso, Descrição do curso, Instrutor e Url da imagem de capa
+    RN2: Possuir os campos do tipo data com os placeholders: Data de início e Data de fim
+    RN3: Possuir um campo do tipo númerico com o placeholder: Número de vagas
+    RN4: Possuir um campo do tipo select com o placeholder: Tipo de curso; e os valores: Presencial e Online
+    RN4.1: Caso o valor escolhido seja Presencial, deve existir um campo do tipo input alfanumérico com o placeholder: Endereço
+    RN4.2: Caso o valor escolhido seja Online, deve existir um campo do tipo input alfanumérico com o placeholder: Link de inscrição
+    RN5: Possuir um botão com o texto: CADASTRAR CURSO; com ação para salvar os dados dos inputs
+    RN6: Possuir um alert box com o texto: Curso cadastrado com sucesso!; 
 ---
 Funcionalidade: __LISTAR CURSOS__
+![alt text](https://i.imgur.com/OTfT0ug.png "Lista de cursos")
 
     EU, enquanto usuário administrador do sistema  
     GOSTARIA, de uma tela de listagem  
     PORQUE, assim posso listar todos os cursos disponíveis no sistema  
----
-Funcionalidade: __EXCLUIR CURSO__
+    
+Regras de negócio
 
-    EU, enquanto usuário administrador do sistema  
-    GOSTARIA, de um botão de exclusão  
-    PORQUE, assim posso excluir os cursos indesejados  
----
+    RN1: Possuir um componente div que devolva todos os dados do curso previamente cadastrado
+    RN2: Possuir um botão com o texto: EXCLUIR CURSO; e um ícone de lixeira, para cada curso cadastrado
+    RN3: Possuir um alert box com o texto: Curso excluído com sucesso!; quando o botão de exclusão é acionado
+___
+## 2. PLANO DE TESTES
+
+___
+## 3. RELATÓRIO DE BUGS
+
+___
+## 4. LINKS
