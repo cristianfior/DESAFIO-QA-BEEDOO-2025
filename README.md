@@ -49,9 +49,18 @@ Regras de negócio
     RN3: Possuir um alert box com o texto: Curso excluído com sucesso!; quando o botão de exclusão é acionado
 ___
 ## 2. PLANO DE TESTES
-
+O planilha do plano de testes está dividida em duas conforme funcionalidades do site, respeitando o padrão de page objects. Optei por organiza-la dessa maneira pois fica mais fácil realizar o rastreamento dos cenários e casos e posteriormente para o ligamento com os bugs e defeitos encontrados.
+- [ACESSAR PLANILHA DE PLANO DE TESTE](https://docs.google.com/spreadsheets/d/1EFgASfWGtaVmYqr-6rwkX3vOPco-_-GEWh6VKKe9KIY/edit?usp=sharing "PLANO DE TESTES FUNCIONAL - BEEDOO")
 ___
 ## 3. RELATÓRIO DE BUGS
 
 ___
-## 4. LINKS
+## 4. LINKS ÚTEIS
+__PLANO DE TESTES FUNCIONAL - BEEDOO__    
+- [ACESSAR PLANILHA DE PLANO DE TESTE](https://docs.google.com/spreadsheets/d/1EFgASfWGtaVmYqr-6rwkX3vOPco-_-GEWh6VKKe9KIY/edit?usp=sharing "PLANO DE TESTES FUNCIONAL - BEEDOO")
+
+__RELATÓRIO DE BUGS E MELHORIAS - BEEDOO__
+- [ACESSAR PLANILHA DE BUGS E MELHORIAS]()
+
+__ARTEFATOS E EVIDÊNCIAS__
+- [ACESSAR ARTEFATOS E EVIDÊNCIAS](https://drive.google.com/drive/folders/15gSPmFtJs5vsIbctVvvmczaxnvctqoGM?usp=sharing "ARTEFATOS E EVIDÊNCIAS")
