@@ -54,7 +54,7 @@ A planilha do plano de testes está dividida em duas conforme funcionalidades do
 ___
 ## 3. RELATÓRIO DE BUGS E MELHORIAS
 A planilha está dividida em duas partes, bugs e melhorias. 
-Para o relatório de bugs adotei o seguinte modelo: id para identificar o bug, ct relacionado para fazer o lastreamento com a tarefa originadora do bug, título do bug, descrição do bug, passo-a-passo para a reprodução do bug, evidência do bug em imagens, severidade e prioridade que o bug deve ser tratado e sanado. Dessa forma fica objetivo o que está acontecendo, como isso impacta o usuário e o quão urgente e rápido deve ser tratado, além de poder fazer o acompanhamento com a tarefa original.
+Para o relatório de bugs adotei o seguinte modelo: id para identificar o bug, ct relacionado para fazer o lastreamento com a tarefa originadora do bug, título do bug, descrição do bug, passo-a-passo para a reprodução do bug, evidência do bug em imagens, severidade e prioridade que o bug deve ser tratado e sanado. Dessa forma fica objetivo o que está acontecendo, como isso impacta o usuário e o quão urgente e rápido deve ser tratado, além de poder fazer o acompanhamento com a tarefa original.    
 Para o relatório de melhorias adotei o modelo: id para identificar a melhoria, título da melhoria, descrição da melhoria, prioridade com que deve ser desenvolvida. Ficou perceptível que, mais do que bugs, a aplicação apresenta muitos problemas de estruturação, principalmente as regras de negócios que deveriam ser revistas.
 - [ACESSAR PLANILHA DE BUGS E MELHORIAS](https://docs.google.com/spreadsheets/d/1mjQhCtTCNheW3SaaqDAjgpISgf_3i5BboABPXPf1B70/edit?usp=sharing "RELATÓRIO DE BUGS E MELHORIAS")
 ___
